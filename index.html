@@ -45,14 +45,93 @@
   </div>
   <div id="thing" style="display:none">
 
-    <div class="choose" onclick="changeThingOfPrimary()" >
+    <div class="choose" id="choose1" >
       <p>我们的故事从小学开始,你想去哪个小学:</p>
-      <div class="chooseInput" id="chooseInput1">远便宜</div>
-      <div class="chooseInput" id="chooseInput2">近但贵</div>
-      <img class="chooseImg" src="img/primarySchool/小学.png" alt="">
+      <div class="chooseInput" id="chooseInput1" onclick="primarySchoolChoose1()" >远便宜</div>
+      <div class="chooseInput" id="chooseInput2" onclick="primarySchoolChoose2()" >近但贵</div>
+      <img class="chooseImg" src="img/小学.png" alt="">
+    </div>
+    <div class="choose" id="choose2" style="display:none">
+      <p>选择日常食物价格:</p>
+      <div class="chooseInput" id="chooseInput1" onclick="foodChoose1()">较便宜</div>
+      <div class="chooseInput" id="chooseInput2" onclick="foodChoose2()">较贵</div>
+      <img class="chooseImg" src="img/吃得好.png" alt="">
+    </div>
+    <div class="choose" id="choose3" style="display:none" >
+      <p>学校门口的垃圾食品看起来很好吃，你想:</p>
+      <div class="chooseInput" id="chooseInput1" onclick="junkFood1()">吃</div>
+      <div class="chooseInput" id="chooseInput2" onclick="junkFood2()">不吃</div>
+      <img class="chooseImg" src="img/垃圾食品.png" alt="">
+    </div>
+    <div class="choose" id="choose4" style="display:none" >
+      <p>捉到一只小虫子,你想要:</p>
+      <div class="chooseInput" id="chooseInput1" onclick="chongzi1()">整同桌</div>
+      <div class="chooseInput" id="chooseInput2" onclick="chongzi2()">放生</div>
+      <img class="chooseImg" src="img/捉虫.png" alt="">
+    </div>
+    <div class="choose" id="choose5" style="display:none" >
+      <p>捡到一分钱,是否交给警察叔叔:</p>
+      <div class="chooseInput" id="chooseInput1" onclick="money1()">交给他</div>
+      <div class="chooseInput" id="chooseInput2" onclick="money2()">留着</div>
+      <img class="chooseImg" src="img/捡到钱.png" alt="">
+    </div>
+    <div class="choose" id="choose6" style="display:none"  >
+      <p>有个怪叔叔拿个棒棒糖给你,叫你去玩,你想:</p>
+      <div class="chooseInput" id="chooseInput1" onclick="bangbangtang1()">去</div>
+      <div class="chooseInput" id="chooseInput2" onclick="bangbangtang2()">不去</div>
+      <img class="chooseImg" src="img/棒棒糖.png" alt="">
+    </div>
+    <div class="choose" id="choose7" style="display:none" >
+      <p>某次小测验不理想,家长问起你成绩,你想:</p>
+      <div class="chooseInput" id="chooseInput1" onclick="marks1()">说实话</div>
+      <div class="chooseInput" id="chooseInput2" onclick="marks2()">撒谎</div>
+      <img class="chooseImg" src="img/不理想.png" alt="">
+    </div>
+    <div class="choose" id="choose8" style="display:none"  >
+      <p>放学后,有同学叫你去游戏厅,你想:</p>
+      <div class="chooseInput" id="chooseInput1" onclick="game1()">去</div>
+      <div class="chooseInput" id="chooseInput2" onclick="game2()">不去</div>
+      <img class="chooseImg" src="img/去游戏厅.png" alt="">
+    </div>
+    <div class="choose" id="choose9" style="display:none" >
+      <p>你写作业的时候有同学叫你去玩,你想:</p>
+      <div class="chooseInput" id="chooseInput1" onclick="play1()">去</div>
+      <div class="chooseInput" id="chooseInput2" onclick="play2()">不去</div>
+      <img class="chooseImg" src="img/叫玩.png" alt="">
+    </div>
+    <div class="choose" id="choose10" style="display:none" >
+      <p>突然发现一个女生被欺负,你是否想帮助她:</p>
+      <div class="chooseInput" id="chooseInput1" onclick="help1()">帮助她</div>
+      <div class="chooseInput" id="chooseInput2" onclick="help2()">不帮助</div>
+      <img class="chooseImg" src="img/女生被欺负.png" alt="">
+    </div>
+    <div class="choose" id="choose11" style="display:none">
+      <p>放学后看到一只猫进入了一个漆黑的巷子里,你想:</p>
+      <div class="chooseInput" id="chooseInput1" onclick="road1()">跟上去</div>
+      <div class="chooseInput" id="chooseInput2" onclick="road2()">回家</div>
+      <img class="chooseImg" src="img/小巷子.png" alt="">
+    </div>
+    <div class="choose" id="choose12" style="display:none" >
+      <p>你收到一封署名漂亮女孩的情书,你想:</p>
+      <div class="chooseInput" id="chooseInput1" onclick="qingshu1()">接受</div>
+      <div class="chooseInput" id="chooseInput2" onclick="qingshu1()">扔掉</div>
+      <img class="chooseImg" src="img/情书.png" alt="">
+    </div>
+    <div class="choose" id="choose13" style="display:none"  >
+      <p>上学即将迟到时,正好有个路口是红灯,你想:</p>
+      <div class="chooseInput" id="chooseInput1" onclick="deng1()">闯红灯</div>
+      <div class="chooseInput" id="chooseInput2" onclick="deng1()">等绿灯</div>
+      <img class="chooseImg" src="img/闯红灯.png" alt="">
+    </div>
+    <div class="choose" id="choose14" style="display:none"  >
+      <p>某个高年级同学问你借钱,你想:</p>
+      <div class="chooseInput" id="chooseInput1" onclick="rent1()">借给他</div>
+      <div class="chooseInput" id="chooseInput2" onclick="rent1()">拒绝</div>
+      <img class="chooseImg" src="img/高年级借钱.png" alt="">
     </div>
 
   </div>
+
   <div id="baby" ></div>
 
   <div id="peopleChoose" style="display:none">
