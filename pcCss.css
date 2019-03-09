@@ -1,0 +1,244 @@
+
+html,body{
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin:0;
+  overflow:hidden;
+  /* background-image: url(教室.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%; */
+}
+#setting{
+  background-image: url(logoimg/设置1.jpg);
+  background-size: 100% 130%;
+  height: 10%;
+  width: 8%;
+  position: absolute;
+}
+#human{
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+  height: 90%;
+  width: 40%;
+  margin-left: 1%;
+}
+#logo{
+  display: inline-flex;
+  justify-content: flex-start;
+  width: 60%;
+  height: 50%;
+  /* font-size: 17  px; */
+  text-align: center;
+  font-weight: bold;
+}
+#emotion{
+  background-image: url(logoimg/感情.png);
+  height: 100%;
+  width: 18%;
+  background-repeat: no-repeat;
+  background-size: 100% 20%;
+  background-position: top;
+  border-left:  0.5px groove;
+}
+#health{
+  background-image: url(logoimg/健康.png);
+  height: 100%;
+  width: 18%;
+  background-repeat: no-repeat;
+  background-size: 100% 20%;
+  background-position: top;
+  border-left:  0.5px groove;
+}
+#intelligence{
+  background-image: url(logoimg/智慧.png);
+  height: 100%;
+  width: 18%;
+  background-repeat: no-repeat;
+  background-size: 100% 20%;
+  background-position: top;
+  border-left:  0.5px groove;
+}
+#wealth{
+  background-image: url(logoimg/财富.png);
+  height: 100%;
+  width: 18%;
+  background-repeat: no-repeat;
+  background-size: 100% 20%;
+  background-position: top;
+  border-left:  0.5px groove;
+}
+#morality{
+  background-image: url(logoimg/道德.png);
+  height: 100%;
+  width: 18%;
+  background-repeat: no-repeat;
+  background-size: 100% 20%;
+  background-position: top;
+  border-left:  0.5px groove;
+  border-right:  0.5px groove;
+}
+#logo div p{
+  position: relative;
+  top:10%;
+}
+.progressBar{
+  width: 80%;
+  margin: 5vh auto;
+  background: Lime;
+  /* position: relative;
+  top:10%; */
+  opacity: 0.7;
+}
+.progressBar div{
+  /* margin-top: 10vh; */
+  color:Indigo;
+  font-family: cursive;
+  opacity: 1;
+  font-size: 18px;
+}
+#peoplelogo{
+  width: 30%;
+  height: 100%;
+}
+#peoplelogo img{
+  max-width:200%;
+  position: relative;
+  top:-30%;
+  left: 200%;
+}
+
+
+#thing{
+  background-image: url(logoimg/notebook.png);
+  background-size: 100% 90%;
+  background-position: center;
+  height: 100%;
+  background-repeat: no-repeat;
+  width: 50%;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.choose{
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.choose p{
+  text-align: left;
+  margin-top: 30%;
+  margin-left: 12%;
+  font-weight: 900;
+  width: 100%;
+  height: 10%;
+}
+.chooseInput{
+  position: relative;
+  left: 52%;
+  cursor:cell;
+  font-weight: bold;
+  color: white;
+  font-size: 300%;
+  border: solid 2px white;
+  background: -webkit-linear-gradient(green, skyblue); /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(green, skyblue); /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(green, skyblue); /* Firefox 3.6 - 15 */
+  background: linear-gradient(green, skyblue); /* 标准的语法 */
+  width: 30%;
+  top:10%;
+  height: 15%;
+  text-align: center;
+  transition: all 1s linear;
+}
+.chooseInput:hover{
+  background: red;
+  transform: scale3d(1.3);
+
+}
+.chooseImg{
+  z-index: 10;
+  position: relative;
+  left: 12%;
+  margin-top: -20%;
+  max-width: 40%;
+  border-radius: 20%;
+}
+
+#baby{
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  background-image: url(img/baby1.png);
+  background-size: 100% 100%;
+  width: 100vw;
+  height: 100vh;
+  transition: all 1s linear;
+  animation:baby 1s;
+  animation-iteration-count: 5;
+  animation-timing-function: linear;
+}
+@keyframes baby {
+    0%   {background-image: url(img/baby1.png);}
+    50% {background-image: url(img/baby3.png);}
+    100%   {background-image: url(img/baby2.png);}
+}
+#rili{
+  width: 20vw;
+  height: 30vh;
+  color: green;
+  border: double 3px red;
+  position: absolute;
+  bottom: 5vh;
+  left: 2vw;
+  text-align: center;
+  font-size:5vh;
+  background-color: white;
+  opacity: 0.6;
+}
+#day{
+  color:gold;
+  opacity: 1;
+  font-weight: bolder;
+  text-shadow:-2px -2px 6px #000;
+}
+#peopleChoose{
+  height:100vh;
+  width:100vw;
+  position:absolute;
+  left:0;
+  top:0;
+  opacity: 1;
+  background-color:	#33FFDD;
+  z-index:1000;
+  transition: all 1s linear;
+}
+#peopleChoose div{
+  width: 33%;
+  float: left;
+}
+#peopleChoose p{
+  font-size: 10vh;
+  color:red;
+  font-weight: 900;
+  text-align: center;
+}
+#peopleChoose div p{
+  display: none;
+  font-size: 8vh;
+  color: #FF44AA ;
+  font-weight: bolder;
+  font-family: monospace;
+}
+#peopleChoose div img{
+  transition: all 0.5s linear;
+  max-width: 90%;
+}
+#peopleChoose div img:hover{
+  transform: scale(1.2);
+}
+#peopleChoose div img:hover +p{
+  display: block;
+}

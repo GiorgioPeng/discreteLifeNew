@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="pcCss.css">
+  <title>离散人生</title>
+  <script src="js/initialJs.js"></script>
+</head>
+<body >
+  <!-- <div id="setting"></div> -->
+  <div id="human" style="display:none">
+    <div id="logo">
+      <div id="emotion"><p>感情</p>
+        <div class="progressBar" style="height:16vh">
+          <div>50%</div>
+      </div>
+    </div>
+      <div id="health"><p>健康</p>
+        <div class="progressBar" style="height:16vh">
+          <div>50%</div>
+      </div>
+    </div>
+      <div id="intelligence"><p>智慧</p>
+        <div class="progressBar" style="height:16vh">
+          <div>50%</div>
+      </div>
+    </div>
+      <div id="wealth"><p>财富</p>
+        <div class="progressBar" style="height:16vh">
+          <div>50%</div>
+      </div>
+    </div>
+      <div id="morality"><p>道德</p>
+        <div class="progressBar" style="height:16vh">
+          <div>50%</div>
+      </div>
+    </div>
+    </div>
+    <div id="peoplelogo">
+        <img src="logoimg/学霸.png" alt="">
+    </div>
+    <div id="rili">你已经来到世间<br><p id="day">1</p>天!!</div>
+  </div>
+  <div id="thing" style="display:none">
+
+    <div class="choose" onclick="changeThingOfPrimary()" >
+      <p>我们的故事从小学开始,你想去哪个小学:</p>
+      <div class="chooseInput" id="chooseInput1">远便宜</div>
+      <div class="chooseInput" id="chooseInput2">近但贵</div>
+      <img class="chooseImg" src="img/primarySchool/小学.png" alt="">
+    </div>
+
+  </div>
+  <div id="baby" ></div>
+
+  <div id="peopleChoose" style="display:none">
+      <div>
+        <img src="logoimg/学霸.png" onmousemove="whether()" onclick="gotoGame(this)">
+        <p>初始值中智慧属性较高,财富属性较低</p>
+      </div>
+      <div>
+        <img src="logoimg/富二代.png" onmousemove="whether()" onclick="gotoGame(this)">
+        <p>初始值中财富属性占优,感情属性较低</p>
+      </div>
+      <div>
+        <img src="logoimg/肌肉男.png" onmousemove="whether()" onclick="gotoGame(this)">
+        <p>初始值中健康属性占优,智慧属性较低</p>
+      </div>
+      <p>请选择你想使用的初始角色</p>
+  </div>
+</body>
+<script>
+document.body.onselectstart = function(){
+　　return false;
+}
+</script>
+
+<script src="js/createChoose.js"></script>
+<script src="js/function.js"></script>
+</html>
