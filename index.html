@@ -132,7 +132,12 @@
 
   </div>
 
-  <div id="baby" ></div>
+  <div id="baby" >
+    <p class="babyP" id="li">离</p>
+    <p class="babyP" id="san">散</p>
+    <p class="babyP" id="ren">人</p>
+    <p class="babyP" id="sheng">生</p>
+  </div>
 
   <div id="peopleChoose" style="display:none">
       <div>
@@ -149,13 +154,18 @@
       </div>
       <p>请选择你想使用的初始角色</p>
   </div>
+  <div id="endPage" style="display:none">
+    <p></p>
+    <img src="" alt="">
+  </div>
 </body>
 <script>
 document.body.onselectstart = function(){
 　　return false;
 }
 </script>
-
-<script src="js/createChoose.js"></script>
+<script src="js/end.js"></script>
+<!-- <script src="js/createChoose.js"></script> -->
+<!-- 后期拓展可能使用 -->
 <script src="js/function.js"></script>
 </html>

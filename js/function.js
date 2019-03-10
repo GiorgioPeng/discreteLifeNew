@@ -25,6 +25,7 @@ function changeColor(number,type){
   else {
       type.style.backgroundColor="red";
     }
+    ifEnd();
 }
 function aWealthDHealth(){
   wealthHeight = parseInt(wealth.style.height.substr(0,wealth.style.height.length-1));
