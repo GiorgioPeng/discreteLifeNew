@@ -97,13 +97,10 @@ html,body{
   width: 80%;
   margin: 5vh auto;
   background: Lime;
-  /* position: relative;
-  top:10%; */
   opacity: 0.7;
   transition: height 0.5s linear;
 }
 .progressBar div{
-  /* margin-top: 10vh; */
   color:Indigo;
   font-family: cursive;
   opacity: 1;
@@ -138,7 +135,6 @@ html,body{
   position: relative;
 }
 .choose p{
-  /* font-size: 3vw; */
   word-wrap:break-word;
   text-align: left;
   margin-top: 10%;
@@ -155,10 +151,10 @@ html,body{
   color: white;
   font-size: 300%;
   border: solid 2px white;
-  background: -webkit-linear-gradient(green, skyblue); /* Safari 5.1 - 6.0 */
-  background: -o-linear-gradient(green, skyblue); /* Opera 11.1 - 12.0 */
-  background: -moz-linear-gradient(green, skyblue); /* Firefox 3.6 - 15 */
-  background: linear-gradient(green, skyblue); /* 标准的语法 */
+  background: -webkit-linear-gradient(green, skyblue);
+  background: -o-linear-gradient(green, skyblue);
+  background: -moz-linear-gradient(green, skyblue);
+  background: linear-gradient(green, skyblue);
   width: 30%;
   top:10%;
   height: 15%;
@@ -245,6 +241,7 @@ html,body{
   color:gold;
   opacity: 1;
   font-weight: bolder;
+  /* font-size: 8vh; */
   text-shadow:-2px -2px 6px #000;
 }
 #peopleChoose{
@@ -254,7 +251,9 @@ html,body{
   left:0;
   top:0;
   opacity: 1;
-  background-color:	#33FFDD;
+  background-image: url(logoimg/background.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
   z-index:1000;
   transition: all 1s linear;
 }
@@ -288,7 +287,7 @@ html,body{
 #endPage{
   width: 100vw;
   height: 100vh;
-  z-index: 99999;
+  z-index: 99998;
   position: absolute;
   left: 0;
   top: 0;
@@ -299,4 +298,14 @@ html,body{
   position: absolute;
   left: 0;
   top: 0;
+}
+#endPage p{
+  font-size: 10vh;
+  text-align: center;
+  margin-top: 7%;
+  color: #E63F00;
+  font-weight: 900;
+  position: absolute;
+  z-index:99999;
+  opacity: 0.8;
 }
