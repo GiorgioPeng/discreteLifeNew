@@ -138,14 +138,14 @@ html,body{
   position: relative;
 }
 .choose p{
-  font-size: 3vw;
+  /* font-size: 3vw; */
   word-wrap:break-word;
   text-align: left;
-  margin-top: 30%;
-  margin-left: 12%;
+  margin-top: 10%;
+  margin-left: 11%;
   font-weight: 900;
   width:75%;
-  height: 10%;
+  height: 35%;
 }
 .chooseInput{
   position: relative;

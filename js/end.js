@@ -16,7 +16,7 @@ function ifEnd(){
     {
       endPage.style.display="block";
       endPageImg.src="endImg/金钱失败.png";
-      
+
     }
     if(parseInt(numberOfIntelligence.innerHTML.substr(0,numberOfIntelligence.innerHTML.length-1))<20)
     {
@@ -39,25 +39,31 @@ function ifEnd(){
   }
   if(numberOfDay === 60)
   {
-    if(parseInt(numberOfHealth.innerHTML.substr(0,numberOfHealth.innerHTML.length-1))>80)
+    if(parseInt(numberOfHealth.innerHTML.substr(0,numberOfHealth.innerHTML.length-1))>80&&parseInt(numberOfMorality.innerHTML.substr(0,numberOfMorality.innerHTML.length-1))>80)
     {
-
+      endPage.style.display="block";
+      endPageImg.src="endImg/道德和健康好.png";
     }
-    if(parseInt(numberOfWealth.innerHTML.substr(0,numberOfWealth.innerHTML.length-1))>80)
+    if(parseInt(numberOfWealth.innerHTML.substr(0,numberOfWealth.innerHTML.length-1))>80&&parseInt(numberOfMorality.innerHTML.substr(0,numberOfMorality.innerHTML.length-1))>80)
     {
-
+      endPage.style.display="block";
+      endPageImg.src="endImg/道德和财富好.png";
     }
-    if(parseInt(numberOfIntelligence.innerHTML.substr(0,numberOfIntelligence.innerHTML.length-1))>80)
+    if(parseInt(numberOfIntelligence.innerHTML.substr(0,numberOfIntelligence.innerHTML.length-1))>80&&parseInt(numberOfMorality.innerHTML.substr(0,numberOfMorality.innerHTML.length-1))>80)
     {
-
+      endPage.style.display="block";
+      endPageImg.src="endImg/道德和智慧好.png";
     }
-    if(parseInt(numberOfEmotion.innerHTML.substr(0,numberOfEmotion.innerHTML.length-1))>80)
-    {
 
-    }
     if(parseInt(numberOfMorality.innerHTML.substr(0,numberOfMorality.innerHTML.length-1))>80)
     {
-
+      endPage.style.display="block";
+      endPageImg.src="endImg/道德好.png";
+    }
+    if(parseInt(numberOfEmotion.innerHTML.substr(0,numberOfMorality.innerHTML.length-1))>80)
+    {
+      endPage.style.display="block";
+      endPageImg.src="endImg/感情好.png";
     }
   }
 }
