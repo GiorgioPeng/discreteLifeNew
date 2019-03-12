@@ -18,7 +18,7 @@ function ifEnd(){
     {
       endPage.style.display="block";
       endPageImg.src="endImg/金钱失败.png";
-      endPageP.innerHTML = "过渡的挥霍让我养成了乱花钱的习惯,最终将家产败地一清二白.";
+      endPageP.innerHTML = "过度的挥霍让我养成了乱花钱的习惯,最终将家产败地一清二白.";
       return;
 
     }
