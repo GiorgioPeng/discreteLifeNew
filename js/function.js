@@ -329,7 +329,7 @@ function aEmotionDMorality(){
 function primarySchoolChoose1(){
   aWealthDIntelligence();
   document.querySelector("#choose1").style.display="none";
-  let randNumber = Math.floor(Math.random()*14)+1;
+  let randNumber = Math.floor(Math.random()*15)+1;
   if(randNumber===1)
     randNumber+=1;
   document.getElementById("choose"+randNumber).style.display="block";
@@ -341,7 +341,7 @@ function primarySchoolChoose1(){
 function primarySchoolChoose2(){
   aIntelligenceDWealth();
   document.querySelector("#choose1").style.display="none";
-  let randNumber = Math.floor(Math.random()*14)+1;
+  let randNumber = Math.floor(Math.random()*15)+1;
   if(randNumber===1)
     randNumber+=1;
   document.getElementById("choose"+randNumber).style.display="block";
@@ -353,7 +353,7 @@ function primarySchoolChoose2(){
 function foodChoose1(){
   aWealthDHealth();
   document.querySelector("#choose2").style.display="none";
-  let randNumber = Math.floor(Math.random()*14)+1;
+  let randNumber = Math.floor(Math.random()*15)+1;
   if(randNumber===1)
     randNumber+=1;
   document.getElementById("choose"+randNumber).style.display="block";
@@ -366,7 +366,7 @@ function foodChoose1(){
 function foodChoose2(){
   aHealthDWealth();
   document.querySelector("#choose2").style.display="none";
-  let randNumber = Math.floor(Math.random()*14)+1;
+  let randNumber = Math.floor(Math.random()*15)+1;
   if(randNumber===1)
     randNumber+=1;
   document.getElementById("choose"+randNumber).style.display="block";
@@ -379,7 +379,7 @@ function foodChoose2(){
 function junkFood1(){
   aEmotionDHealth();
   document.querySelector("#choose3").style.display="none";
-  let randNumber = Math.floor(Math.random()*14)+1;
+  let randNumber = Math.floor(Math.random()*15)+1;
   if(randNumber===1)
     randNumber+=1;
   document.getElementById("choose"+randNumber).style.display="block";
@@ -392,7 +392,7 @@ function junkFood1(){
 function junkFood2(){
   aMoralityDEmotion();
   document.querySelector("#choose3").style.display="none";
-  let randNumber = Math.floor(Math.random()*14)+1;
+  let randNumber = Math.floor(Math.random()*15)+1;
   if(randNumber===1)
     randNumber+=1;
   document.getElementById("choose"+randNumber).style.display="block";
@@ -405,7 +405,7 @@ function junkFood2(){
 function chongzi1(){
   aEmotionDHealth();
   document.querySelector("#choose4").style.display="none";
-  let randNumber = Math.floor(Math.random()*14)+1;
+  let randNumber = Math.floor(Math.random()*15)+1;
   if(randNumber===1)
     randNumber+=1;
   document.getElementById("choose"+randNumber).style.display="block";
@@ -416,9 +416,9 @@ function chongzi1(){
 }
 
 function chongzi2(){
-  aEmotionDHealth();
+  aMoralityDEmotion();
   document.querySelector("#choose4").style.display="none";
-  let randNumber = Math.floor(Math.random()*14)+1;
+  let randNumber = Math.floor(Math.random()*15)+1;
   if(randNumber===1)
     randNumber+=1;
   document.getElementById("choose"+randNumber).style.display="block";
@@ -429,9 +429,9 @@ function chongzi2(){
 }
 
 function money1(){
-  aMoralityDHealth();
+  aMoralityDWealth();
   document.querySelector("#choose5").style.display="none";
-  let randNumber = Math.floor(Math.random()*14)+1;
+  let randNumber = Math.floor(Math.random()*15)+1;
   if(randNumber===1)
     randNumber+=1;
   document.getElementById("choose"+randNumber).style.display="block";
@@ -442,9 +442,9 @@ function money1(){
 }
 
 function money2(){
-  aMoralityDHealth();
+  aWealthDMorality();
   document.querySelector("#choose5").style.display="none";
-  let randNumber = Math.floor(Math.random()*14)+1;
+  let randNumber = Math.floor(Math.random()*15)+1;
   if(randNumber===1)
     randNumber+=1;
   document.getElementById("choose"+randNumber).style.display="block";
@@ -455,9 +455,9 @@ function money2(){
 }
 
 function bangbangtang1(){
-  aIntelligenceDEmotion();
+  aIntelligenceDWealth();
   document.querySelector("#choose6").style.display="none";
-  let randNumber = Math.floor(Math.random()*14)+1;
+  let randNumber = Math.floor(Math.random()*15)+1;
   if(randNumber===1)
     randNumber+=1;
   document.getElementById("choose"+randNumber).style.display="block";
@@ -470,7 +470,7 @@ function bangbangtang1(){
 function bangbangtang2(){
   aIntelligenceDEmotion();
   document.querySelector("#choose6").style.display="none";
-  let randNumber = Math.floor(Math.random()*14)+1;
+  let randNumber = Math.floor(Math.random()*15)+1;
   if(randNumber===1)
     randNumber+=1;
   document.getElementById("choose"+randNumber).style.display="block";
@@ -483,7 +483,7 @@ function bangbangtang2(){
 function marks1(){
   aMoralityDHealth();
   document.querySelector("#choose7").style.display="none";
-  let randNumber = Math.floor(Math.random()*14)+1;
+  let randNumber = Math.floor(Math.random()*15)+1;
   if(randNumber===1)
     randNumber+=1;
   document.getElementById("choose"+randNumber).style.display="block";
@@ -496,7 +496,7 @@ function marks1(){
 function marks2(){
   aIntelligenceDMorality();
   document.querySelector("#choose7").style.display="none";
-  let randNumber = Math.floor(Math.random()*14)+1;
+  let randNumber = Math.floor(Math.random()*15)+1;
   if(randNumber===1)
     randNumber+=1;
   document.getElementById("choose"+randNumber).style.display="block";
@@ -509,7 +509,7 @@ function marks2(){
 function game1(){
   aEmotionDIntelligence();
   document.querySelector("#choose8").style.display="none";
-  let randNumber = Math.floor(Math.random()*14)+1;
+  let randNumber = Math.floor(Math.random()*15)+1;
   if(randNumber===1)
     randNumber+=1;
   document.getElementById("choose"+randNumber).style.display="block";
@@ -522,7 +522,7 @@ function game1(){
 function game2(){
   aIntelligenceDEmotion();
   document.querySelector("#choose8").style.display="none";
-  let randNumber = Math.floor(Math.random()*14)+1;
+  let randNumber = Math.floor(Math.random()*15)+1;
   if(randNumber===1)
     randNumber+=1;
   document.getElementById("choose"+randNumber).style.display="block";
@@ -535,7 +535,7 @@ function game2(){
 function play1(){
   aEmotionDIntelligence();
   document.querySelector("#choose9").style.display="none";
-  let randNumber = Math.floor(Math.random()*14)+1;
+  let randNumber = Math.floor(Math.random()*15)+1;
   if(randNumber===1)
     randNumber+=1;
   document.getElementById("choose"+randNumber).style.display="block";
@@ -548,7 +548,7 @@ function play1(){
 function play2(){
   aIntelligenceDEmotion();
   document.querySelector("#choose9").style.display="none";
-  let randNumber = Math.floor(Math.random()*14)+1;
+  let randNumber = Math.floor(Math.random()*15)+1;
   if(randNumber===1)
     randNumber+=1;
   document.getElementById("choose"+randNumber).style.display="block";
@@ -561,7 +561,7 @@ function play2(){
 function help1(){
   aEmotionDHealth();
   document.querySelector("#choose10").style.display="none";
-  let randNumber = Math.floor(Math.random()*14)+1;
+  let randNumber = Math.floor(Math.random()*15)+1;
   if(randNumber===1)
     randNumber+=1;
   document.getElementById("choose"+randNumber).style.display="block";
@@ -574,7 +574,7 @@ function help1(){
 function help2(){
   aIntelligenceDMorality();
   document.querySelector("#choose10").style.display="none";
-  let randNumber = Math.floor(Math.random()*14)+1;
+  let randNumber = Math.floor(Math.random()*15)+1;
   if(randNumber===1)
     randNumber+=1;
   document.getElementById("choose"+randNumber).style.display="block";
@@ -587,7 +587,7 @@ function help2(){
 function road1(){
   aIntelligenceDHealth();
   document.querySelector("#choose11").style.display="none";
-  let randNumber = Math.floor(Math.random()*14)+1;
+  let randNumber = Math.floor(Math.random()*15)+1;
   if(randNumber===1)
     randNumber+=1;
   document.getElementById("choose"+randNumber).style.display="block";
@@ -600,7 +600,7 @@ function road1(){
 function road2(){
   aWealthDEmotion();
   document.querySelector("#choose11").style.display="none";
-  let randNumber = Math.floor(Math.random()*14)+1;
+  let randNumber = Math.floor(Math.random()*15)+1;
   if(randNumber===1)
     randNumber+=1;
   document.getElementById("choose"+randNumber).style.display="block";
@@ -613,7 +613,7 @@ function road2(){
 function qingshu1(){
   aEmotionDIntelligence();
   document.querySelector("#choose12").style.display="none";
-  let randNumber = Math.floor(Math.random()*14)+1;
+  let randNumber = Math.floor(Math.random()*15)+1;
   if(randNumber===1)
     randNumber+=1;
   document.getElementById("choose"+randNumber).style.display="block";
@@ -626,7 +626,7 @@ function qingshu1(){
 function qingshu2(){
   aIntelligenceDEmotion();
   document.querySelector("#choose12").style.display="none";
-  let randNumber = Math.floor(Math.random()*14)+1;
+  let randNumber = Math.floor(Math.random()*15)+1;
   if(randNumber===1)
     randNumber+=1;
   document.getElementById("choose"+randNumber).style.display="block";
@@ -640,7 +640,7 @@ function deng1(){
   aIntelligenceDMorality();
   aEmotionDWealth();
   document.querySelector("#choose13").style.display="none";
-  let randNumber = Math.floor(Math.random()*14)+1;
+  let randNumber = Math.floor(Math.random()*15)+1;
   if(randNumber===1)
     randNumber+=1;
   document.getElementById("choose"+randNumber).style.display="block";
@@ -653,7 +653,7 @@ function deng1(){
 function deng2(){
   aMoralityDIntelligence();
   document.querySelector("#choose13").style.display="none";
-  let randNumber = Math.floor(Math.random()*14)+1;
+  let randNumber = Math.floor(Math.random()*15)+1;
   if(randNumber===1)
     randNumber+=1;
   document.getElementById("choose"+randNumber).style.display="block";
@@ -666,7 +666,7 @@ function deng2(){
 function rent1(){
   aEmotionDWealth();
   document.querySelector("#choose14").style.display="none";
-  let randNumber = Math.floor(Math.random()*14)+1;
+  let randNumber = Math.floor(Math.random()*15)+1;
   if(randNumber===1)
     randNumber+=1;
   document.getElementById("choose"+randNumber).style.display="block";
@@ -679,7 +679,33 @@ function rent1(){
 function rent2(){
   aIntelligenceDHealth();
   document.querySelector("#choose14").style.display="none";
-  let randNumber = Math.floor(Math.random()*14)+1;
+  let randNumber = Math.floor(Math.random()*15)+1;
+  if(randNumber===1)
+    randNumber+=1;
+  document.getElementById("choose"+randNumber).style.display="block";
+  numberOfDay+=1;
+  rili.innerHTML = "你已经来到世间<br/><p id='day'>"+numberOfDay+"</p>天!!"
+
+}
+function clear1(){
+	aHealthDIntelligence();
+	aHealthDIntelligence();
+	aMoralityDIntelligence();
+	aIntelligenceDMorality();
+	document.querySelector("#choose15").style.display="none";
+  let randNumber = Math.floor(Math.random()*15)+1;
+  if(randNumber===1)
+    randNumber+=1;
+  document.getElementById("choose"+randNumber).style.display="block";
+  numberOfDay+=1;
+  rili.innerHTML = "你已经来到世间<br/><p id='day'>"+numberOfDay+"</p>天!!"
+
+}
+function clear2(){
+	aWealthDIntelligence();
+	aEmotionDMorality();
+	document.querySelector("#choose15").style.display="none";
+  let randNumber = Math.floor(Math.random()*15)+1;
   if(randNumber===1)
     randNumber+=1;
   document.getElementById("choose"+randNumber).style.display="block";
