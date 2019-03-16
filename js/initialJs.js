@@ -34,6 +34,4 @@ function gotoGame(ev){
   document.querySelector("#human").style.display="block";
   document.querySelector("#thing").style.display="block";
 }
-function whether(){
-  document.querySelector("#peopleChoose>p").style.display="none";
-}
+

@@ -335,7 +335,7 @@ function primarySchoolChoose1(){
   document.getElementById("choose"+randNumber).style.display="block";
   numberOfDay+=1;
 
-  rili.innerHTML = "你已经来到世间<br/><p id='day'>"+numberOfDay+"</p>天!!"
+  rili.innerHTML = "你已经开始上学<br/><p id='day'>"+numberOfDay+"</p>天!!"
 }
 
 function primarySchoolChoose2(){
@@ -347,7 +347,7 @@ function primarySchoolChoose2(){
   document.getElementById("choose"+randNumber).style.display="block";
   numberOfDay+=1;
 
-  rili.innerHTML = "你已经来到世间<br/><p id='day'>"+numberOfDay+"</p>天!!"
+  rili.innerHTML = "你已经开始上学<br/><p id='day'>"+numberOfDay+"</p>天!!"
 }
 
 function foodChoose1(){
@@ -360,7 +360,7 @@ function foodChoose1(){
 
   numberOfDay+=1;
 
-  rili.innerHTML = "你已经来到世间<br/><p id='day'>"+numberOfDay+"</p>天!!"
+  rili.innerHTML = "你已经开始上学<br/><p id='day'>"+numberOfDay+"</p>天!!"
 }
 
 function foodChoose2(){
@@ -373,7 +373,7 @@ function foodChoose2(){
 
   numberOfDay+=1;
 
-  rili.innerHTML = "你已经来到世间<br/><p id='day'>"+numberOfDay+"</p>天!!"
+  rili.innerHTML = "你已经开始上学<br/><p id='day'>"+numberOfDay+"</p>天!!"
 }
 
 function junkFood1(){
@@ -386,7 +386,7 @@ function junkFood1(){
 
   numberOfDay+=1;
 
-  rili.innerHTML = "你已经来到世间<br/><p id='day'>"+numberOfDay+"</p>天!!"
+  rili.innerHTML = "你已经开始上学<br/><p id='day'>"+numberOfDay+"</p>天!!"
 }
 
 function junkFood2(){
@@ -398,7 +398,7 @@ function junkFood2(){
   document.getElementById("choose"+randNumber).style.display="block";
   numberOfDay+=1;
 
-  rili.innerHTML = "你已经来到世间<br/><p id='day'>"+numberOfDay+"</p>天!!"
+  rili.innerHTML = "你已经开始上学<br/><p id='day'>"+numberOfDay+"</p>天!!"
 
 }
 
@@ -411,7 +411,7 @@ function chongzi1(){
   document.getElementById("choose"+randNumber).style.display="block";
   numberOfDay+=1;
 
-  rili.innerHTML = "你已经来到世间<br/><p id='day'>"+numberOfDay+"</p>天!!"
+  rili.innerHTML = "你已经开始上学<br/><p id='day'>"+numberOfDay+"</p>天!!"
 
 }
 
@@ -424,7 +424,7 @@ function chongzi2(){
   document.getElementById("choose"+randNumber).style.display="block";
   numberOfDay+=1;
 
-  rili.innerHTML = "你已经来到世间<br/><p id='day'>"+numberOfDay+"</p>天!!"
+  rili.innerHTML = "你已经开始上学<br/><p id='day'>"+numberOfDay+"</p>天!!"
 
 }
 
@@ -437,7 +437,7 @@ function money1(){
   document.getElementById("choose"+randNumber).style.display="block";
   numberOfDay+=1;
 
-  rili.innerHTML = "你已经来到世间<br/><p id='day'>"+numberOfDay+"</p>天!!"
+  rili.innerHTML = "你已经开始上学<br/><p id='day'>"+numberOfDay+"</p>天!!"
 
 }
 
@@ -450,7 +450,7 @@ function money2(){
   document.getElementById("choose"+randNumber).style.display="block";
   numberOfDay+=1;
 
-  rili.innerHTML = "你已经来到世间<br/><p id='day'>"+numberOfDay+"</p>天!!"
+  rili.innerHTML = "你已经开始上学<br/><p id='day'>"+numberOfDay+"</p>天!!"
 
 }
 
@@ -463,7 +463,7 @@ function bangbangtang1(){
   document.getElementById("choose"+randNumber).style.display="block";
   numberOfDay+=1;
 
-  rili.innerHTML = "你已经来到世间<br/><p id='day'>"+numberOfDay+"</p>天!!"
+  rili.innerHTML = "你已经开始上学<br/><p id='day'>"+numberOfDay+"</p>天!!"
 
 }
 
@@ -476,7 +476,7 @@ function bangbangtang2(){
   document.getElementById("choose"+randNumber).style.display="block";
   numberOfDay+=1;
 
-  rili.innerHTML = "你已经来到世间<br/><p id='day'>"+numberOfDay+"</p>天!!"
+  rili.innerHTML = "你已经开始上学<br/><p id='day'>"+numberOfDay+"</p>天!!"
 
 }
 
@@ -489,7 +489,7 @@ function marks1(){
   document.getElementById("choose"+randNumber).style.display="block";
   numberOfDay+=1;
 
-  rili.innerHTML = "你已经来到世间<br/><p id='day'>"+numberOfDay+"</p>天!!"
+  rili.innerHTML = "你已经开始上学<br/><p id='day'>"+numberOfDay+"</p>天!!"
 
 }
 
@@ -502,7 +502,7 @@ function marks2(){
   document.getElementById("choose"+randNumber).style.display="block";
   numberOfDay+=1;
 
-  rili.innerHTML = "你已经来到世间<br/><p id='day'>"+numberOfDay+"</p>天!!"
+  rili.innerHTML = "你已经开始上学<br/><p id='day'>"+numberOfDay+"</p>天!!"
 
 }
 
@@ -515,7 +515,7 @@ function game1(){
   document.getElementById("choose"+randNumber).style.display="block";
   numberOfDay+=1;
 
-  rili.innerHTML = "你已经来到世间<br/><p id='day'>"+numberOfDay+"</p>天!!"
+  rili.innerHTML = "你已经开始上学<br/><p id='day'>"+numberOfDay+"</p>天!!"
 
 }
 
@@ -528,7 +528,7 @@ function game2(){
   document.getElementById("choose"+randNumber).style.display="block";
   numberOfDay+=1;
 
-  rili.innerHTML = "你已经来到世间<br/><p id='day'>"+numberOfDay+"</p>天!!"
+  rili.innerHTML = "你已经开始上学<br/><p id='day'>"+numberOfDay+"</p>天!!"
 
 }
 
@@ -541,7 +541,7 @@ function play1(){
   document.getElementById("choose"+randNumber).style.display="block";
   numberOfDay+=1;
 
-  rili.innerHTML = "你已经来到世间<br/><p id='day'>"+numberOfDay+"</p>天!!"
+  rili.innerHTML = "你已经开始上学<br/><p id='day'>"+numberOfDay+"</p>天!!"
 
 }
 
@@ -554,7 +554,7 @@ function play2(){
   document.getElementById("choose"+randNumber).style.display="block";
   numberOfDay+=1;
 
-  rili.innerHTML = "你已经来到世间<br/><p id='day'>"+numberOfDay+"</p>天!!"
+  rili.innerHTML = "你已经开始上学<br/><p id='day'>"+numberOfDay+"</p>天!!"
 
 }
 
@@ -567,7 +567,7 @@ function help1(){
   document.getElementById("choose"+randNumber).style.display="block";
   numberOfDay+=1;
 
-  rili.innerHTML = "你已经来到世间<br/><p id='day'>"+numberOfDay+"</p>天!!"
+  rili.innerHTML = "你已经开始上学<br/><p id='day'>"+numberOfDay+"</p>天!!"
 
 }
 
@@ -580,7 +580,7 @@ function help2(){
   document.getElementById("choose"+randNumber).style.display="block";
   numberOfDay+=1;
 
-  rili.innerHTML = "你已经来到世间<br/><p id='day'>"+numberOfDay+"</p>天!!"
+  rili.innerHTML = "你已经开始上学<br/><p id='day'>"+numberOfDay+"</p>天!!"
 
 }
 
@@ -593,7 +593,7 @@ function road1(){
   document.getElementById("choose"+randNumber).style.display="block";
   numberOfDay+=1;
 
-  rili.innerHTML = "你已经来到世间<br/><p id='day'>"+numberOfDay+"</p>天!!"
+  rili.innerHTML = "你已经开始上学<br/><p id='day'>"+numberOfDay+"</p>天!!"
 
 }
 
@@ -606,7 +606,7 @@ function road2(){
   document.getElementById("choose"+randNumber).style.display="block";
   numberOfDay+=1;
 
-  rili.innerHTML = "你已经来到世间<br/><p id='day'>"+numberOfDay+"</p>天!!"
+  rili.innerHTML = "你已经开始上学<br/><p id='day'>"+numberOfDay+"</p>天!!"
 
 }
 
@@ -619,7 +619,7 @@ function qingshu1(){
   document.getElementById("choose"+randNumber).style.display="block";
   numberOfDay+=1;
 
-  rili.innerHTML = "你已经来到世间<br/><p id='day'>"+numberOfDay+"</p>天!!"
+  rili.innerHTML = "你已经开始上学<br/><p id='day'>"+numberOfDay+"</p>天!!"
 
 }
 
@@ -632,7 +632,7 @@ function qingshu2(){
   document.getElementById("choose"+randNumber).style.display="block";
   numberOfDay+=1;
 
-  rili.innerHTML = "你已经来到世间<br/><p id='day'>"+numberOfDay+"</p>天!!"
+  rili.innerHTML = "你已经开始上学<br/><p id='day'>"+numberOfDay+"</p>天!!"
 
 }
 
@@ -646,7 +646,7 @@ function deng1(){
   document.getElementById("choose"+randNumber).style.display="block";
   numberOfDay+=1;
 
-  rili.innerHTML = "你已经来到世间<br/><p id='day'>"+numberOfDay+"</p>天!!"
+  rili.innerHTML = "你已经开始上学<br/><p id='day'>"+numberOfDay+"</p>天!!"
 
 }
 
@@ -659,7 +659,7 @@ function deng2(){
   document.getElementById("choose"+randNumber).style.display="block";
   numberOfDay+=1;
 
-  rili.innerHTML = "你已经来到世间<br/><p id='day'>"+numberOfDay+"</p>天!!"
+  rili.innerHTML = "你已经开始上学<br/><p id='day'>"+numberOfDay+"</p>天!!"
 
 }
 
@@ -672,7 +672,7 @@ function rent1(){
   document.getElementById("choose"+randNumber).style.display="block";
   numberOfDay+=1;
 
-  rili.innerHTML = "你已经来到世间<br/><p id='day'>"+numberOfDay+"</p>天!!"
+  rili.innerHTML = "你已经开始上学<br/><p id='day'>"+numberOfDay+"</p>天!!"
 
 }
 
@@ -684,7 +684,7 @@ function rent2(){
     randNumber+=1;
   document.getElementById("choose"+randNumber).style.display="block";
   numberOfDay+=1;
-  rili.innerHTML = "你已经来到世间<br/><p id='day'>"+numberOfDay+"</p>天!!"
+  rili.innerHTML = "你已经开始上学<br/><p id='day'>"+numberOfDay+"</p>天!!"
 
 }
 function clear1(){
@@ -698,7 +698,7 @@ function clear1(){
     randNumber+=1;
   document.getElementById("choose"+randNumber).style.display="block";
   numberOfDay+=1;
-  rili.innerHTML = "你已经来到世间<br/><p id='day'>"+numberOfDay+"</p>天!!"
+  rili.innerHTML = "你已经开始上学<br/><p id='day'>"+numberOfDay+"</p>天!!"
 
 }
 function clear2(){
@@ -710,6 +710,6 @@ function clear2(){
     randNumber+=1;
   document.getElementById("choose"+randNumber).style.display="block";
   numberOfDay+=1;
-  rili.innerHTML = "你已经来到世间<br/><p id='day'>"+numberOfDay+"</p>天!!"
+  rili.innerHTML = "你已经开始上学<br/><p id='day'>"+numberOfDay+"</p>天!!"
 
 }

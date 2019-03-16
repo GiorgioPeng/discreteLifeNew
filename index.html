@@ -9,6 +9,7 @@
   <script src="js/initialJs.js"></script>
 </head>
 <body >
+  
   <div id="human" style="display:none">
     <div id="logo">
       <div id="emotion"><p>感情</p>
@@ -146,16 +147,16 @@
 
   <div id="peopleChoose" style="display:none">
       <div>
-        <img src="logoimg/学霸.png" onmousemove="whether()" onclick="gotoGame(this)">
-        <p>初始值中智慧属性较高,财富属性较低</p>
+        <img class="logo1" src="logoimg/学霸.png" onclick="gotoGame(this)">
+        <img class="logotu" src="logoimg/学霸图.png" alt="初始值中智慧属性较高,财富属性较低"></img>
       </div>
       <div>
-        <img src="logoimg/富二代.png" onmousemove="whether()" onclick="gotoGame(this)">
-        <p>初始值中财富属性占优,感情属性较低</p>
+        <img class="logo1" src="logoimg/富二代.png" onclick="gotoGame(this)">
+        <img class="logotu" src="logoimg/富二代图.png" alt="初始值中财富属性占优,感情属性较低"></img>
       </div>
       <div>
-        <img src="logoimg/肌肉男.png" onmousemove="whether()" onclick="gotoGame(this)">
-        <p>初始值中健康属性占优,智慧属性较低</p>
+        <img class="logo1" src="logoimg/肌肉男.png" onclick="gotoGame(this)">
+        <img class="logotu" src="logoimg/肌肉男图.png" alt="初始值中健康属性占优,智慧属性较低"></img>
       </div>
       <p>请选择你想使用的初始角色</p>
   </div>
@@ -163,7 +164,7 @@
     <p></p>
     <img src="" alt="">
   </div>
-  <audio controls autoplay loop>
+  <audio style="display:none" controls autoplay loop>
   <source src="music/bgmusic.mp4" >
   </audio>
 </body>
