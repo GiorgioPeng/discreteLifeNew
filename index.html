@@ -40,7 +40,7 @@
     <div id="peoplelogo">
         <img src="logoimg/学霸.png" alt="">
     </div>
-    <div id="rili">你已经来到世间<br><p id="day">1</p>天!!</div>
+    <div id="rili">你已经开始上学<br><p id="day">1</p>天!!</div>
   </div>
   <div id="thing" style="display:none">
 
@@ -113,22 +113,28 @@
     <div class="choose" id="choose12" style="display:none" >
       <p>在上数学课上，我呆呆的望着黑板，双目无神，静静的想着昨天的那一幕。昨天小红在放学教室都没人的时候，偷偷跑过来给了我一封请书，然后脸红红的跑了，心里说不出来什么感觉，但是老师教育我们不能早恋，所以我应该如何面对这件事情呢？</p>
       <div class="chooseInput" id="chooseInput1" onclick="qingshu1()">接受</div>
-      <div class="chooseInput" id="chooseInput2" onclick="qingshu1()">扔掉</div>
+      <div class="chooseInput" id="chooseInput2" onclick="qingshu2()">扔掉</div>
       <img class="chooseImg" src="img/情书.png" alt="">
     </div>
     <div class="choose" id="choose13" style="display:none"  >
       <p>匆忙的跑在上学的路上，着急的看了看表，还有5分钟就要迟到了，而且第一节课还是班主任的课，但是我不得不停下自己的脚步，因为到达了十字路口，这该死的红灯，那么我是不是应该为了不迟到而闯红灯呢？</p>
       <div class="chooseInput" id="chooseInput1" onclick="deng1()">闯红灯</div>
-      <div class="chooseInput" id="chooseInput2" onclick="deng1()">等绿灯</div>
+      <div class="chooseInput" id="chooseInput2" onclick="deng2()">等绿灯</div>
       <img class="chooseImg" src="img/闯红灯.png" alt="">
     </div>
     <div class="choose" id="choose14" style="display:none"  >
       <p>天一个人走在校园的操场上，突然肩膀上感觉后面有人在拍我，我回头一看，原来是比我大两级的学长，前几天打篮球认识的，他说，想买一个手机，但是现在手头有一点紧，也就是问我借200元钱，那么我应该借钱给他吗？</p>
       <div class="chooseInput" id="chooseInput1" onclick="rent1()">借给他</div>
-      <div class="chooseInput" id="chooseInput2" onclick="rent1()">拒绝</div>
+      <div class="chooseInput" id="chooseInput2" onclick="rent2()">拒绝</div>
       <img class="chooseImg" src="img/高年级借钱.png" alt="">
     </div>
-
+	<div class="choose" id="choose15" style="display:none">
+		<p>某天,老师组织大家参与教室大扫除,说"劳动最光荣",我是否应该参与呢?</p>
+		<div class="chooseInput" id="chooseInput1" onclick="clear1()">参与</div>
+		<div class="chooseInput" id="chooseInput2" onclick="clear2()">不参与</div>
+		<img class="chooseImg" src="img/教室.png" alt="">
+	</div>
+	
   </div>
 
   <div id="baby" >
@@ -157,6 +163,9 @@
     <p></p>
     <img src="" alt="">
   </div>
+  <audio controls autoplay loop>
+  <source src="music/bgmusic.mp4" >
+  </audio>
 </body>
 <script>
 document.body.onselectstart = function(){
