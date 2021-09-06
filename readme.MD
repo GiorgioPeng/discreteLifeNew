@@ -4,3 +4,4 @@
 
 > 注:本游戏没有存档功能 
 
+在线使用：https://giorgiopeng.github.io/discreteLifeNew/
